@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    
+    <!-- Useful meta tags -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="">
+    
+    <title>Personal blog | Works</title>
+</head>
+<body >
+
+   <div class="page">
+
+        <header class="header">
+            <div class="header__left">
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a class="nav__link" href="index.html">Обо мне</a>
+                        </li>
+                        <!--
+                        <li class="nav__item">
+                            <a class="nav__link has-subnav"  href="#">Статьи</a>
+                            <ul class="subnav">
+                                <li>
+                                    <a class="subnav__link" href="">Создание сайтов</a>
+                                </li>
+                                <li>
+                                    <a class="subnav__link" href="">Интернет-маркетинг</a>
+                                </li>
+                                <li>
+                                    <a class="subnav__link" href="">Продвижение видео</a>
+                                </li>
+                            </ul>
+                        </li>
+                        -->
+                        <li class="nav__item">
+                            <a class="nav__link"  href="works.html">Работы</a>
+                        </li>
+                    </ul>
+                </nav>
+        
+                <button class="burger" button="button" id="sidebarToggle">
+                    <span>Открыть навигацию</span>
+                </button>
+            </div>
+            <!--
+            <div class="header__right">
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a class="nav__link" href="profile.html">Профиль</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">Выйти</a>
+                        </li>
+                    </ul>
+                </nav>
+                
+                <form class="search" action="/" method="post">
+                    <input class="search__input" type="text" placeholder="Поиск по блогу">
+                </form>
+                
+            </div>
+            -->
+            
+        </header>
+
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar__header">
+                <img src="assets/images/sidebar-header.jpg" alt="">
+            </div>
+            <div class="sidebar__content">
+                <div class="profile">
+        
+                    <img class="profile__avatar" src="assets/images/ava.jpg" alt="">
+                    <div class="profile__header">
+                        <div class="profile__name">Александр Фролов</div>
+                        <div class="profile__prof">Сайт портфолио</div>
+                    </div>
+                    <ul class="social">
+                        <li class="social__item">
+                            <a class="social__link" href="https://github.com/alucadeil" target="_blank">
+                                <img src="assets/images/github.svg" alt="Александр Фролов Pinterest">
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a class="social__link" href="https://www.instagram.com/frodapriroda/" target="_blank">
+                                <img src="assets/images/instagram.svg" alt="Александр Фролов Instagram">
+                            </a>
+                        </li>
+                        
+                    </ul>
+                    <div class="profile__text">
+                        <p>Пока еще не Front-end разработчик. :( </p>
+                    </div>
+                </div>
+                <nav class="nav nav--mobile">
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                            <a class="nav__link" href="index.html">Обо мне</a>
+                            </li>
+                            <!--
+                            <li class="nav__item">
+                                <a class="nav__link has-subnav"  href="#">Статьи</a>
+                                <ul class="subnav">
+                                    <li>
+                                        <a class="subnav__link" href="">Создание сайтов</a>
+                                    </li>
+                                    <li>
+                                        <a class="subnav__link" href="">Интернет-маркетинг</a>
+                                    </li>
+                                    <li>
+                                        <a class="subnav__link" href="">Продвижение видео</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav__item">
+                                <a class="nav__link"  href="profile.html">Профиль</a>
+                            </li>
+                            <li class="nav__item">
+                                <a class="nav__link"  href="#">Выйти</a>
+                            </li>
+                            -->
+                            <li class="nav__item">
+                                <a class="nav__link"  href="#">Работы</a>
+                            </li>
+                        </ul>
+                    </nav>
+            </div>
+            <div class="sidebar__footer">
+                <a class="btn btn--red" href="works.html">Мои работы</a>
+                <button class="btn  btn--blue" type="button" data-modal="contact-modal">Мои контакты</button>
+            </div>
+        </aside>
+
+        <main class="main">
+           <div class="container">
+                
+                
+                <h1 class="page__title">Мои работы</h1>
+                
+                <article class="work">
+                    <div class="work__preview">
+                       <picture>
+                        <source srcset="assets/images/work/work1_mob.jpg" media="(max-width: 575px)">
+                        <img src="assets/images/work/work1.jpg" alt="alucadeil.github.io/excel-js">
+                       </picture>
+                    </div>
+                    <div class="work__content">
+                        <h2 class="work__title">
+                            <a href="https://alucadeil.github.io/excel-js/" target="_blank">Excel таблицы на чистом js</a>
+                        </h2>
+                        <div class="work__description">
+                            <p>Простенькое на первый взглад приложение, позовляющее работать с таблицами.</p>
+                        </div>
+                        <ul class="tags">
+                            <li class="tags__item">Redux</li>
+                            <li class="tags__item">Excel</li>
+                            <li class="tags__item">Js</li>
+                        </ul>
+                        <div class="work__footer">
+                            <a class="btn btn--blue btn--rounded btn--sm" href="https://alucadeil.github.io/excel-js" target="_blank">Перейти на сайт</a>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="work">
+                    <div class="work__preview">
+                       <picture>
+                        <source srcset="assets/images/work/work2_mob.jpg" media="(max-width: 575px)">
+                        <img src="assets/images/work/work2.jpg" alt="104.154.156.149:3000/">
+                       </picture>
+                    </div>
+                    <div class="work__content">
+                        <h2 class="work__title">
+                            <a href="http://104.154.156.149:3000/" target="_blank">Сокращатель ссылок</a>
+                        </h2>
+                
+                        <div class="work__description">
+                            <p>
+                                Приложение для сокращения ссылок. Пользовательский интерфейс был написан на React с использованием библиотеки Materialize.
+                                На серверной стороне использовался фреймворк Express для Node.js, а в качестве базы данных MongoDb
+                            </p>
+                        </div>
+                
+                        <ul class="tags">
+                            <li class="tags__item">MongoDb</li>
+                            <li class="tags__item">Express</li>
+                            <li class="tags__item">React</li>
+                            <li class="tags__item">Node.js</li>
+                        </ul>
+                        <div class="work__footer">
+                            <a class="btn btn--blue btn--rounded btn--sm" href="http://104.154.156.149:3000/" target="_blank">Перейти на сайт</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="work">
+                    <div class="work__preview">
+                       <picture>
+                        <source srcset="assets/images/work/work3_mob.jpg" media="(max-width: 575px)">
+                        <img src="assets/images/work/work3.jpg" alt="react-note-hooks-b50b5.web.app/">
+                       </picture>
+                    </div>
+                    <div class="work__content">
+                        <h2 class="work__title">
+                            <a href="https://react-note-hooks-b50b5.web.app/" target="_blank">React To do</a>
+                        </h2>
+                
+                        <div class="work__description">
+                            <p>
+                                Обычный to do на React и Bootstrap <br>
+                                База данных Firebase, деплой там же.
+                            </p>
+                        </div>
+                        <ul class="tags">
+                            <li class="tags__item">React</li>
+                            <li class="tags__item">Firebase</li>
+                            <li class="tags__item">Bootstrap</li>
+                        </ul>
+                        <div class="work__footer">
+                            <a class="btn btn--blue btn--rounded btn--sm" href="https://react-note-hooks-b50b5.web.app/" target="_blank">Перейти на сайт</a>
+                        </div>
+                    </div>
+                </article>
+                
+                
+            </div>
+        </main>
+        <div class="modal" id="contact-modal">
+            <div class="modal__content modal__content--contact">
+                <button class="modal__close" type="button">
+                    <img src="assets/images/close-modal.svg" alt="Закрыть окно">
+                </button>
+                <ul class="modal__contacts">
+                    <li>
+                        email: <a href="mailto:alucadeil@gmail.com">alucadeil@gmail.com</a>
+                    </li>
+                    <li>
+                        тел: <a href="tel:+375298776609">+37529-877-66-09</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/alucadeil">мой github</a>
+                    </li>
+                </ul>
+        
+            </div>
+        </div>
+
+   </div>
+   <!-- JS -->
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
