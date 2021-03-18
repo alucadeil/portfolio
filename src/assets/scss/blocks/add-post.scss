@@ -1,0 +1,101 @@
+.add-post {
+    padding: 1.5rem 2rem;
+    margin-bottom: 3rem;
+
+    background-color: $secondary;
+    box-shadow: 0 15px 25px rgba($black, 0.45);
+    border-radius: 5px;
+
+    @include breakpoint($mobile-bp) {
+        padding: 1.5rem;
+    }
+}
+
+.add-post__form {
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.add-post__form-textarea {
+    display: block;
+    flex-grow: 1;
+    height: 34px;
+    overflow: hidden;
+
+    font-family: inherit;
+    font-size: 1.5rem;
+    color: $white;
+    border: none;
+    background: transparent;
+
+    resize: none;
+
+    &::placeholder {
+        color: #d2d2d2;
+    }
+}
+
+.add-post__form-actions {
+    width: 12rem;
+    flex-shrink: 0;
+
+    display: flex;
+    justify-content: space-between;
+
+    @include breakpoint($mobile-bp) {
+        width: 9rem;
+    }
+
+}
+
+
+.add-post__file,
+.add-post__send {
+    display: block;
+    width: 4.4rem;
+    height: 4.4rem;
+
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+
+    transition: background-color .2s linear;
+
+    @include breakpoint($mobile-bp) {
+        width: 3.4rem;
+        height: 3.4rem;
+    }
+}
+
+.add-post__file {
+    background: #EBEBEB url("../images/add-post/photo.svg") center no-repeat;
+
+    input {
+        display: none;
+    }
+
+    &:hover {
+        background-color: darken(#EBEBEB, 10%);
+    }
+
+    @include breakpoint($mobile-bp) {
+        background-size: 18px;
+    }
+}
+
+.add-post__send {
+    background: $blue url("../images/add-post/send.svg") center no-repeat;
+    font-size: 0;
+    color: transparent;
+
+    &:hover {
+        background-color: darken($blue, 10%);
+    }
+
+    @include breakpoint($mobile-bp) {
+        background-size: 15px;
+    }
+}
+
+
