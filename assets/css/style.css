@@ -568,11 +568,11 @@ a:hover {
 .burger {
     display: none;
     width: 3rem;
-    height: 2rem;
+    height: 1.8rem;
     padding: 0;
     position: absolute;
     top: 50%;
-    left: 1.5rem;
+    left: 1.1rem;
     font-size: 0;
     color: transparent;
     -webkit-transform: translateY(-50%);
@@ -938,7 +938,7 @@ a:hover {
 .btn {
     display: inline-block;
     vertical-align: top;
-    padding: 1.125em 2.05em;
+    padding: 1em 2.05em 1.2em;
     background-color: #121212;
     border: none;
     border-radius: 3em;
